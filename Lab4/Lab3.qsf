@@ -1,0 +1,176 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 16:59:17  October 16, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lab3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY CU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:59:17  OCTOBER 16, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE Beat_Generator.bdf
+set_global_assignment -name BDF_FILE uPC.bdf
+set_global_assignment -name BDF_FILE uIR.bdf
+set_global_assignment -name BDF_FILE Data_Selector.bdf
+set_global_assignment -name BDF_FILE PC.bdf
+set_global_assignment -name BDF_FILE MAR.bdf
+set_global_assignment -name BDF_FILE 8_Bit_ALU.bdf
+set_global_assignment -name BDF_FILE R.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE R_Test.vwf
+set_global_assignment -name BDF_FILE 16_Bit_ALU.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALU_Test.vwf
+set_global_assignment -name QIP_FILE RAM.qip
+set_global_assignment -name BDF_FILE Lab3.bdf
+set_global_assignment -name BDF_FILE IR.bdf
+set_global_assignment -name BDF_FILE X.bdf
+set_global_assignment -name BDF_FILE ACC.bdf
+set_global_assignment -name BDF_FILE MDR.bdf
+set_global_assignment -name BDF_FILE 16_Bit_Tri.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Tri_Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE PC_Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Selector_Test.vwf
+set_global_assignment -name QIP_FILE CROM.qip
+set_global_assignment -name BDF_FILE CU.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Beat_Test.vwf
+set_global_assignment -name BDF_FILE Decoder_4_16.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Decoder_Test.vwf
+set_global_assignment -name BDF_FILE Decoder_2_4.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Decoder_2_4_Test.vwf
+set_global_assignment -name BDF_FILE Send_Imm.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Send_Imm_Test.vwf
+set_global_assignment -name BDF_FILE Jump.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Jump_Test.vwf
+set_global_assignment -name BDF_FILE Decoder_3_8.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Decoder_3_8_Test.vwf
+set_global_assignment -name MIF_FILE RAMINIT.mif
+set_global_assignment -name MIF_FILE CROMINIT.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE TotalTest.vwf
+set_global_assignment -name BDF_FILE Y.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name VECTOR_WAVEFORM_FILE test2.vwf
+set_global_assignment -name MIF_FILE test1.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test1.vwf
+set_global_assignment -name MIF_FILE test3_2.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test3_2.vwf
+set_global_assignment -name MIF_FILE test3_3.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test3_3.vwf
+set_global_assignment -name MIF_FILE test3_1.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test3_1.vwf
+set_global_assignment -name QIP_FILE MUL.qip
+set_global_assignment -name BDF_FILE 8_Bit_Mul.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MUL_Test.vwf
+set_global_assignment -name VERILOG_FILE Shift.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE Shift_Test.vwf
+set_global_assignment -name BDF_FILE Three_One.bdf
+set_global_assignment -name BDF_FILE Three_One_16Bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Three_One_Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Final_ALU_Test.vwf
+set_global_assignment -name MIF_FILE test4.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test4.vwf
+set_global_assignment -name BDF_FILE SS.bdf
+set_global_assignment -name BDF_FILE SP.bdf
+set_global_assignment -name QIP_FILE DIV.qip
+set_global_assignment -name BDF_FILE Test_Div.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DIV_Test.vwf
+set_global_assignment -name BDF_FILE Four_One.bdf
+set_global_assignment -name BDF_FILE Four_One_16Bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Four_One_Test.vwf
+set_global_assignment -name MIF_FILE CROM_NEW.mif
+set_global_assignment -name MIF_FILE test5.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test5.vwf
+set_global_assignment -name BDF_FILE Decoder_5_32.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Decoder_5_32_Test.vwf
+set_global_assignment -name MIF_FILE test6.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE test6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name BDF_FILE testRAM.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name BDF_FILE Beats.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Beats_Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Final_Beats_Test.vwf
+set_global_assignment -name BDF_FILE CPR_Test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CPR_Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE yanshou1.vwf
+set_location_assignment PIN_133 -to CLK
+set_location_assignment PIN_125 -to R2[7]
+set_location_assignment PIN_128 -to R2[6]
+set_location_assignment PIN_114 -to R2[5]
+set_location_assignment PIN_120 -to R2[4]
+set_location_assignment PIN_105 -to R2[3]
+set_location_assignment PIN_113 -to R2[2]
+set_location_assignment PIN_100 -to R2[1]
+set_location_assignment PIN_101 -to R2[0]
+set_location_assignment PIN_80 -to R1[7]
+set_location_assignment PIN_85 -to R1[6]
+set_location_assignment PIN_73 -to R1[5]
+set_location_assignment PIN_76 -to R1[4]
+set_location_assignment PIN_71 -to R1[3]
+set_location_assignment PIN_72 -to R1[2]
+set_location_assignment PIN_68 -to R1[1]
+set_location_assignment PIN_69 -to R1[0]
+set_location_assignment PIN_54 -to R0[7]
+set_location_assignment PIN_59 -to R0[6]
+set_location_assignment PIN_50 -to R0[5]
+set_location_assignment PIN_51 -to R0[4]
+set_location_assignment PIN_46 -to R0[3]
+set_location_assignment PIN_49 -to R0[2]
+set_location_assignment PIN_43 -to R0[1]
+set_location_assignment PIN_44 -to R0[0]
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name VECTOR_WAVEFORM_FILE test1_new.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/JiZuKeShe/Lab4/test1_new.vwf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

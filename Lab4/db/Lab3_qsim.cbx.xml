@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab3_qsim">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|16_Bit_ALU:inst7|DIV:inst10|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_ljp.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|16_Bit_ALU:inst7|MUL:inst7|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_g4n.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|RAM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_s2i1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

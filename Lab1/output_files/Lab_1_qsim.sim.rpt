@@ -1,0 +1,462 @@
+Simulator report for Lab_1_qsim
+Fri Sep 25 16:48:33 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 194 nodes    ;
+; Simulation Coverage         ;      49.48 % ;
+; Total Number of Transitions ; 1023         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                           ;
++--------------------------------------------------------------------------------------------+---------------------------------+---------------+
+; Option                                                                                     ; Setting                         ; Default Value ;
++--------------------------------------------------------------------------------------------+---------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                      ; Timing        ;
+; Start time                                                                                 ; 0 ns                            ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                             ;               ;
+; Vector input source                                                                        ; D:/JiZuKeShe/Lab1/LAB1_TEST.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                              ; On            ;
+; Check outputs                                                                              ; Off                             ; Off           ;
+; Report simulation coverage                                                                 ; On                              ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                              ; On            ;
+; Display missing 1-value coverage report                                                    ; On                              ; On            ;
+; Display missing 0-value coverage report                                                    ; On                              ; On            ;
+; Detect setup and hold time violations                                                      ; Off                             ; Off           ;
+; Detect glitches                                                                            ; Off                             ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                             ; Off           ;
+; Generate Signal Activity File                                                              ; Off                             ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                             ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                             ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                              ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                      ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                             ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                             ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                            ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                       ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                       ; Transport     ;
++--------------------------------------------------------------------------------------------+---------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------------------------------+
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ALTSYNCRAM ;
++--------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      49.48 % ;
+; Total nodes checked                                 ; 194          ;
+; Total output ports checked                          ; 194          ;
+; Total output ports with complete 1/0-value coverage ; 96           ;
+; Total output ports with no 1/0-value coverage       ; 97           ;
+; Total output ports with no 1-value coverage         ; 97           ;
+; Total output ports with no 0-value coverage         ; 98           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                              ;
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                    ; Output Port Name                                                                       ; Output Port Type ;
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------+
+; |LAB_1|OUT[0]                                                                                ; |LAB_1|OUT[0]                                                                          ; pin_out          ;
+; |LAB_1|inst10                                                                                ; |LAB_1|inst10                                                                          ; out0             ;
+; |LAB_1|CLR                                                                                   ; |LAB_1|CLR                                                                             ; out              ;
+; |LAB_1|inst12                                                                                ; |LAB_1|inst12                                                                          ; out0             ;
+; |LAB_1|inst11                                                                                ; |LAB_1|inst11                                                                          ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|81                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|81                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|54                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|54                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|44                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|44                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|12                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|12                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|79                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|79                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|65                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|65                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|43                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|43                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|7                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|7                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|77                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|77                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|56                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|56                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|51                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|51                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|22                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|22                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|74                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|74                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|72                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|72                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|71                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|71                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|70                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|70                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|45                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|45                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|17                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|17                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|82                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|82                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|55                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|55                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|75                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|75                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|67                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|67                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|68                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|68                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|80                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|80                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|53                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|53                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|63                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|63                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|58                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|58                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|59                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|59                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|62                                                        ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|62                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74182:inst2|31                                                        ; |LAB_1|8_Bit_ALU:inst4|74182:inst2|31                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74182:inst2|22                                                        ; |LAB_1|8_Bit_ALU:inst4|74182:inst2|22                                                  ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|81                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|81                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|54                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|54                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|44                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|44                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|12                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|12                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|79                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|79                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|66                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|66                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|65                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|65                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|43                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|43                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|7                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|7                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|77                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|77                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|56                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|56                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|51                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|51                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|22                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|22                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|74                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|74                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|73                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|73                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|72                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|72                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|71                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|71                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|70                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|70                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|45                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|45                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|17                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|17                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|82                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|82                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|55                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|55                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|75                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|75                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|67                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|67                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|68                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|68                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|69                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|69                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|80                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|80                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|53                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|53                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|64                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst|64                                                   ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|80                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|80                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|78                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|78                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|79                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|79                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|104                                                  ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|104                                            ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|110                                                  ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|110                                            ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|107                                                  ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|107                                            ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|94                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|94                                             ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|99                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|99                                             ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|97                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|97                                             ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|84                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|84                                             ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|87                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|87                                             ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|90                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|90                                             ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|81                                                   ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|81                                             ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|9                                                    ; |LAB_1|uPC:inst1|74161:inst1|f74161:sub|9                                              ; regout           ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a0 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[0] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a1 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[1] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a2 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[2] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a3 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[3] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a4 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[4] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a5 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[5] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a6 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[6] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a7 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[7] ; portadataout0    ;
+; |LAB_1|uIR:inst3|74273:inst|19                                                               ; |LAB_1|uIR:inst3|74273:inst|19                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|18                                                               ; |LAB_1|uIR:inst3|74273:inst|18                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|17                                                               ; |LAB_1|uIR:inst3|74273:inst|17                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|16                                                               ; |LAB_1|uIR:inst3|74273:inst|16                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|15                                                               ; |LAB_1|uIR:inst3|74273:inst|15                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|14                                                               ; |LAB_1|uIR:inst3|74273:inst|14                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|13                                                               ; |LAB_1|uIR:inst3|74273:inst|13                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst|12                                                               ; |LAB_1|uIR:inst3|74273:inst|12                                                         ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|19                                                   ; |LAB_1|8_Bit_Register:inst7|74273:inst1|19                                             ; regout           ;
++----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                   ;
++-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                     ; Output Port Name                                                                        ; Output Port Type ;
++-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
+; |LAB_1|OUT[7]                                                                                 ; |LAB_1|OUT[7]                                                                           ; pin_out          ;
+; |LAB_1|OUT[6]                                                                                 ; |LAB_1|OUT[6]                                                                           ; pin_out          ;
+; |LAB_1|OUT[5]                                                                                 ; |LAB_1|OUT[5]                                                                           ; pin_out          ;
+; |LAB_1|OUT[4]                                                                                 ; |LAB_1|OUT[4]                                                                           ; pin_out          ;
+; |LAB_1|OUT[3]                                                                                 ; |LAB_1|OUT[3]                                                                           ; pin_out          ;
+; |LAB_1|OUT[2]                                                                                 ; |LAB_1|OUT[2]                                                                           ; pin_out          ;
+; |LAB_1|OUT[1]                                                                                 ; |LAB_1|OUT[1]                                                                           ; pin_out          ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|19                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|19                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|18                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|18                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|17                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|17                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|16                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|16                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|15                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|15                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|14                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|14                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|13                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|13                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|12                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|12                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|19                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|19                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|18                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|18                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|17                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|17                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|16                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|16                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|15                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|15                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|14                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|14                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|13                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|13                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|12                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|12                                              ; regout           ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|47                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|47                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|14                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|14                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|13                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|13                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|11                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|11                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|66                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|66                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|46                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|46                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|9                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|9                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|8                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|8                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|6                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|6                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|52                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|52                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|24                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|24                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|23                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|23                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|21                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|21                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|73                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|73                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|48                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|48                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|19                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|19                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|18                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|18                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|16                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|16                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|69                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|69                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|64                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|64                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|60                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|60                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74182:inst2|23                                                         ; |LAB_1|8_Bit_ALU:inst4|74182:inst2|23                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|47                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|47                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|14                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|14                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|13                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|13                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|11                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|11                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|46                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|46                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|9                                                           ; |LAB_1|8_Bit_ALU:inst4|74181:inst|9                                                     ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|8                                                           ; |LAB_1|8_Bit_ALU:inst4|74181:inst|8                                                     ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|6                                                           ; |LAB_1|8_Bit_ALU:inst4|74181:inst|6                                                     ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|52                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|52                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|24                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|24                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|23                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|23                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|21                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|21                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|48                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|48                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|19                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|19                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|18                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|18                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|16                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|16                                                    ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|110                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|110                                              ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|107                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|107                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|106                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|106                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|94                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|94                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|99                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|99                                               ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|97                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|97                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|96                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|96                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|84                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|84                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|87                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|87                                               ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|90                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|90                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|89                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|89                                               ; out0             ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a8  ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[8]  ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a16 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[16] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a17 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[17] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a18 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[18] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a19 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[19] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a20 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[20] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a21 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[21] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a22 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[22] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a23 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[23] ; portadataout0    ;
+; |LAB_1|uIR:inst3|74273:inst2|19                                                               ; |LAB_1|uIR:inst3|74273:inst2|19                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|18                                                               ; |LAB_1|uIR:inst3|74273:inst2|18                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|17                                                               ; |LAB_1|uIR:inst3|74273:inst2|17                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|16                                                               ; |LAB_1|uIR:inst3|74273:inst2|16                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|15                                                               ; |LAB_1|uIR:inst3|74273:inst2|15                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|14                                                               ; |LAB_1|uIR:inst3|74273:inst2|14                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|13                                                               ; |LAB_1|uIR:inst3|74273:inst2|13                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|12                                                               ; |LAB_1|uIR:inst3|74273:inst2|12                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst1|19                                                               ; |LAB_1|uIR:inst3|74273:inst1|19                                                         ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|18                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|18                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|17                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|17                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|16                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|16                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|15                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|15                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|14                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|14                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|13                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|13                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|12                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|12                                              ; regout           ;
++-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                   ;
++-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                     ; Output Port Name                                                                        ; Output Port Type ;
++-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
+; |LAB_1|OUT[7]                                                                                 ; |LAB_1|OUT[7]                                                                           ; pin_out          ;
+; |LAB_1|OUT[6]                                                                                 ; |LAB_1|OUT[6]                                                                           ; pin_out          ;
+; |LAB_1|OUT[5]                                                                                 ; |LAB_1|OUT[5]                                                                           ; pin_out          ;
+; |LAB_1|OUT[4]                                                                                 ; |LAB_1|OUT[4]                                                                           ; pin_out          ;
+; |LAB_1|OUT[3]                                                                                 ; |LAB_1|OUT[3]                                                                           ; pin_out          ;
+; |LAB_1|OUT[2]                                                                                 ; |LAB_1|OUT[2]                                                                           ; pin_out          ;
+; |LAB_1|OUT[1]                                                                                 ; |LAB_1|OUT[1]                                                                           ; pin_out          ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|19                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|19                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|18                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|18                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|17                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|17                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|16                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|16                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|15                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|15                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|14                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|14                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|13                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|13                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst6|74273:inst1|12                                                    ; |LAB_1|8_Bit_Register:inst6|74273:inst1|12                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|19                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|19                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|18                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|18                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|17                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|17                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|16                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|16                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|15                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|15                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|14                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|14                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|13                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|13                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst5|74273:inst1|12                                                    ; |LAB_1|8_Bit_Register:inst5|74273:inst1|12                                              ; regout           ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|47                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|47                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|14                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|14                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|13                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|13                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|11                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|11                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|66                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|66                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|46                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|46                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|9                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|9                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|8                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|8                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|6                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|6                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|52                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|52                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|24                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|24                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|23                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|23                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|21                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|21                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|73                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|73                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|48                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|48                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|19                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|19                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|18                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|18                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|16                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|16                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|69                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|69                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|64                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|64                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst1|60                                                         ; |LAB_1|8_Bit_ALU:inst4|74181:inst1|60                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74182:inst2|23                                                         ; |LAB_1|8_Bit_ALU:inst4|74182:inst2|23                                                   ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|47                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|47                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|14                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|14                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|13                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|13                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|11                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|11                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|46                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|46                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|9                                                           ; |LAB_1|8_Bit_ALU:inst4|74181:inst|9                                                     ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|8                                                           ; |LAB_1|8_Bit_ALU:inst4|74181:inst|8                                                     ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|6                                                           ; |LAB_1|8_Bit_ALU:inst4|74181:inst|6                                                     ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|52                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|52                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|24                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|24                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|23                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|23                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|21                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|21                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|48                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|48                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|19                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|19                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|18                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|18                                                    ; out0             ;
+; |LAB_1|8_Bit_ALU:inst4|74181:inst|16                                                          ; |LAB_1|8_Bit_ALU:inst4|74181:inst|16                                                    ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|110                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|110                                              ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|107                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|107                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|106                                                    ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|106                                              ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|94                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|94                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|99                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|99                                               ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|97                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|97                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|96                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|96                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|84                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|84                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|87                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|87                                               ; regout           ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|90                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|90                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|89                                                     ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|89                                               ; out0             ;
+; |LAB_1|uPC:inst1|74161:inst|f74161:sub|9                                                      ; |LAB_1|uPC:inst1|74161:inst|f74161:sub|9                                                ; regout           ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a8  ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[8]  ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a16 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[16] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a17 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[17] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a18 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[18] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a19 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[19] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a20 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[20] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a21 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[21] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a22 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[22] ; portadataout0    ;
+; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|ram_block1a23 ; |LAB_1|ROM1:inst|altsyncram:altsyncram_component|altsyncram_2t91:auto_generated|q_a[23] ; portadataout0    ;
+; |LAB_1|uIR:inst3|74273:inst2|19                                                               ; |LAB_1|uIR:inst3|74273:inst2|19                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|18                                                               ; |LAB_1|uIR:inst3|74273:inst2|18                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|17                                                               ; |LAB_1|uIR:inst3|74273:inst2|17                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|16                                                               ; |LAB_1|uIR:inst3|74273:inst2|16                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|15                                                               ; |LAB_1|uIR:inst3|74273:inst2|15                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|14                                                               ; |LAB_1|uIR:inst3|74273:inst2|14                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|13                                                               ; |LAB_1|uIR:inst3|74273:inst2|13                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst2|12                                                               ; |LAB_1|uIR:inst3|74273:inst2|12                                                         ; regout           ;
+; |LAB_1|uIR:inst3|74273:inst1|19                                                               ; |LAB_1|uIR:inst3|74273:inst1|19                                                         ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|18                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|18                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|17                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|17                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|16                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|16                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|15                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|15                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|14                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|14                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|13                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|13                                              ; regout           ;
+; |LAB_1|8_Bit_Register:inst7|74273:inst1|12                                                    ; |LAB_1|8_Bit_Register:inst7|74273:inst1|12                                              ; regout           ;
++-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Fri Sep 25 16:48:32 2020
+Info: Command: quartus_sim --simulation_results_format=VWF Lab_1 -c Lab_1_qsim
+Info (324025): Using vector source file "D:/JiZuKeShe/Lab1/LAB1_TEST.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      49.48 %
+Info (328052): Number of transitions in simulation is 1023
+Info (324045): Vector file Lab_1_qsim.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4486 megabytes
+    Info: Processing ended: Fri Sep 25 16:48:33 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

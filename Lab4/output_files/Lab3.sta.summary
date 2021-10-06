@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CU:inst6|Beats:inst1|inst1'
+Slack : -56.918
+TNS   : -2197.390
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -1.618
+TNS   : -9.121
+
+Type  : Slow 1200mV 85C Model Hold 'CU:inst6|Beats:inst1|inst1'
+Slack : -0.971
+TNS   : -10.630
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : -0.338
+TNS   : -0.338
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CU:inst6|Beats:inst1|inst1'
+Slack : -3.201
+TNS   : -234.603
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -32.740
+
+Type  : Slow 1200mV 0C Model Setup 'CU:inst6|Beats:inst1|inst1'
+Slack : -52.132
+TNS   : -2055.328
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -1.488
+TNS   : -7.398
+
+Type  : Slow 1200mV 0C Model Hold 'CU:inst6|Beats:inst1|inst1'
+Slack : -1.079
+TNS   : -13.895
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : -0.334
+TNS   : -0.334
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CU:inst6|Beats:inst1|inst1'
+Slack : -3.201
+TNS   : -252.189
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -32.740
+
+Type  : Fast 1200mV 0C Model Setup 'CU:inst6|Beats:inst1|inst1'
+Slack : -24.132
+TNS   : -893.977
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -0.204
+TNS   : -0.252
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : -0.478
+TNS   : -0.478
+
+Type  : Fast 1200mV 0C Model Hold 'CU:inst6|Beats:inst1|inst1'
+Slack : -0.393
+TNS   : -3.225
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -26.345
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CU:inst6|Beats:inst1|inst1'
+Slack : -1.000
+TNS   : -147.081
+
+------------------------------------------------------------

@@ -1,0 +1,117 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=256;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   201131;
+	1    :   201281;
+	2    :   201311;
+	3    :   401401;
+	4    :   201003;
+	[5..15]  :   000000;
+	16   :   E01021;
+	17   :   201002;
+	[18..31]  :   000000;
+	32   :   381501;
+	33   :   C01A01;
+	34   :   213601;
+	35   :   E01041;
+	36   :   201002;
+	[37..47]  :   000000;
+	48   :   381501;
+	49   :   C01A01;
+	50   :   20C601;
+	51   :   E01041;
+	52   :   201002;
+	[53..63]  :   000000;
+	64   :   381501;
+	65   :   C01A01;
+	66   :   236601;
+	67   :   E01041;
+	68   :   201002;
+	[69..79]  :   000000;
+	80   :   381501;
+	81   :   C01A01;
+	82   :   23C601;
+	83   :   E01041;
+	84   :   201002;
+	[85..95]  :   000000;
+	96   :   381501;
+	97   :   C01A01;
+	98   :   22C601;
+	99   :   E01041;
+	100  :   201002;
+	[101..111]  :   000000;
+	112  :   201521;
+	113  :   C01A01;
+	114  :   213601;
+	115  :   E01041;
+	116  :   201002;
+	[117..127]  :   000000;
+	128  :   381501;
+	129  :   201A21;
+	130  :   213601;
+	131  :   201141;
+	132  :   E01081;
+	133  :   201002;
+	[134..143]  :   000000;
+	144  :   381501;
+	145  :   201A21;
+	146  :   213601;
+	147  :   201141;
+	148  :   C01201;
+	149  :   201019;
+	150  :   201002;
+	[151..159]  :   000000;
+	160  :   781401;
+	161  :   201002;
+	[162..175]  :   000000;
+	176  :   381501;
+	177  :   C01A01;
+	178  :   20C601;
+	179  :   80C421;
+	180  :   201002;
+	[181..191]  :   000000;
+	192  :   381501;
+	193  :   C01A01;
+	194  :   20C601;
+	195  :   A0C421;
+	196  :   201002;
+	[197..207]  :   000000;
+	208  :   C01A01;
+	209  :   201521;
+	210  :   280601;
+	211  :   E01041;
+	212  :   201002;
+	[213..223]  :   000000;
+	224  :   C01A01;
+	225  :   201521;
+	226  :   2C0601;
+	227  :   E01041;
+	228  :   201002;
+	[229..239]  :   000000;
+	240  :   381501;
+	241  :   C01A01;
+	242  :   240601;
+	243  :   E01041;
+	244  :   201002;
+	[245..255]  :   000000;
+END;

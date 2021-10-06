@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 04 17:25:42 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Lab3
+Top-level Entity Name : Lab3
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 905 / 6,272 ( 14 % )
+    Total combinational functions : 869 / 6,272 ( 14 % )
+    Dedicated logic registers : 156 / 6,272 ( 2 % )
+Total registers : 156
+Total pins : 49 / 92 ( 53 % )
+Total virtual pins : 0
+Total memory bits : 4,096 / 276,480 ( 1 % )
+Embedded Multiplier 9-bit elements : 1 / 30 ( 3 % )
+Total PLLs : 0 / 2 ( 0 % )
