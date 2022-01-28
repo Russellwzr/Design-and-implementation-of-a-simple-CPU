@@ -55,3 +55,12 @@
 <img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0058.jpg"/>
 <img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0059.jpg"/>
 <img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0060.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0061.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0062.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0063.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0064.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0065.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0066.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0067.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0068.jpg"/>
+<img  src="https://github.com/Russellwzr/Design-and-implementation-of-a-simple-CPU/blob/main/figures/report_page-0069.jpg"/>
